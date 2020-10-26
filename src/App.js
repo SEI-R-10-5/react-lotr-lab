@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from './logo.svg'
+import './styles/App.css'
+import Movie from './components/Movie'
 function App() {
   return (
     <div className="App">
@@ -17,9 +17,10 @@ function App() {
         >
           Learn React
         </a>
+        <Movie title="The Fellowship of the Ring" hours={2} minutes={58} />
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
